@@ -31,8 +31,8 @@ val_psteps: 2000
 data_flist:
   # https://github.com/jiahuiyu/progressive_growing_of_gans_tf
   escher: [
-    'data/celeba_hq/train_shuffled.flist',
-    'data/celeba_hq/validation_static_view.flist'
+    'data_flist/train_shuffled.flist',
+    'data_flist/validation_static_view.flist'
   ]
 
 static_view_size: 30
